@@ -1,0 +1,219 @@
+/*buttons and links */
+.dropdown list /*buttons*/
+{
+
+
+  position:relative;
+  display:inline-block;
+  text-decoration:none;
+  
+
+}
+
+.dropdowncontent  /*buttons*/
+{
+  
+  display:none;
+  position: absolute;
+  background-color:#f9f9f9;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 5px;
+  z-index: 1;
+  background-color:rgb(181,230,29);
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
+  
+
+
+}
+
+.dropdown:hover  /*buttons*/
+.dropdowncontent
+{
+
+	display:block;
+
+}
+
+.tablebutton
+{
+	
+	background-color:rgb(181,230,29); /* Green */
+	
+}
+
+.btn-group .button  /*button*/
+ {  
+	background-color:rgb(181,230,29); /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: justify;
+	font-family:lucidaconsole;
+	font-size:18pt;
+	font-weight: bold;
+  
+}
+
+.btn-group .button:hover
+{  
+   
+   background-color:purple;
+   cursor:default;
+	
+}
+
+a /*href*/
+{
+	text-decoration:none;
+	color: black;
+}
+
+a:hover
+	{
+		
+		text-decoration:none;
+		color: white;
+		cursor:pointer;
+
+	}
+/*buttons and links */
+
+/*carousel*/
+
+
+.slidedisplay
+{
+
+	display:none;
+	
+}
+
+.slideshow /*slide for picture*/
+{
+	max-width:1000px;
+	position:relative;
+	margin: auto;
+		
+}
+
+.bulletpic/*bullet for picture*/
+{
+			height: 13px;
+			width: 13px;
+			margin: 0 2px;
+			background-color: #bbb;
+			border-radius: 50%;
+			display: inline-block;
+			transition: background-color 0.6s ease;
+}
+
+.active 
+{
+			background-color: #717171;
+}
+			
+/* Fading animation */
+.fade 
+{
+			animation-name: fade;
+			animation-duration: 1.5s;
+}
+
+			@-webkit-keyframes fade 
+{
+			from {opacity: .4} 
+			to {opacity: 1}
+}
+
+			@keyframes fade 
+{
+				from {opacity: .4} 
+				to {opacity: 1}
+}			
+				/* On smaller screens, decrease text size */
+			@media only screen and (max-width: 300px) 
+{
+				.text {font-size: 11px}
+}
+/*carousel*/
+
+
+
+.header /*headerpic*/
+{
+	padding:2px;
+	border-style:ridge;
+	border-color:#EFE4B0;
+	border-width:10px;
+	background-color:#EFE4B0;
+	margin: 0;
+}
+
+.nav /*padding is space and border width is thickness*/
+{
+
+	border-style:hidden;
+	border-color:#EFE4B0;
+	border-width:30px;
+	padding:10px;
+
+}
+
+
+.body /*background*/
+{
+	background:url('tennisbg.jpg');
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:center;
+	padding:10px;
+	border-width:10px;
+	border-style: hidden;
+	border-color:#EFE4B0;
+}
+
+
+
+.tdpicture
+{
+
+	padding:10px;
+	border-width:10px;
+	border-style:hidden;
+	border-color:#EFE4B0;
+
+}
+
+.demo
+{
+		text-decoration:none;
+		text-align:center;
+		font-family:tahoma;
+		border-style: hidden;
+		border-color:#EFE4B0;
+		font-weight: bold;
+		color:white;
+		text-shadow:5px 2px 4px rgb(117,117,117);
+
+}
+
+	
+.foot
+{
+		text-decoration:none;
+		text-align:center;
+		background-color:#EFE4B0;
+		font-family:Arial;
+		padding: 50px;
+		border-width: 34px;
+		border-style: hidden;
+		border-color:#EFE4B0;
+		font-weight: bold;
+		text-shadow:5px 2px 4px rgb(180,200,220);
+
+}
